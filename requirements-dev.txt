@@ -1,0 +1,13 @@
+## 
+# Archivo de requisitos para el entorno de desarrollo
+# Comando para generar el archivo de requisitos de producción:
+# "pip freeze --exclude-editable > requirements.txt"
+#
+# Para instalar las dependencias de desarrollo, ejecuta:
+# "pip install -r requirements-dev.txt"
+##
+
+# Instala las dependencias del archivo "requirements.txt"
+-r requirements.txt
+# Instala el paquete local "scripts" en modo editable
+-e .

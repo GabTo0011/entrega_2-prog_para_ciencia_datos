@@ -1,0 +1,30 @@
+# Archivos de VS Code
+.vscode/
+
+# Entorno virtual
+.venv/
+env/
+venv/
+ENV/
+
+# Metadata de la instalación local (modo editable)
+# Distribución / Paquetes
+dist/
+build/
+*.egg-info/
+
+# Archivos de caché de Python
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Datos y Resultados (opcional, si los archivos son muy pesados ej. >50MB)
+# data/raw/*.csv # Opcional
+# data/processed/
+# outputs/
+
+# Archivos temporales
+.ipynb_checkpoints/
+*.pyc
+
+
