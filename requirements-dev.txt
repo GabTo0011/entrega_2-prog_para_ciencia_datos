@@ -9,5 +9,6 @@
 
 # Instala las dependencias del archivo "requirements.txt"
 -r requirements.txt
-# Instala el paquete local "scripts" en modo editable
+
+# Instala el paquete local "scripts" activando el modo --editable sobre __init__.py
 -e .
